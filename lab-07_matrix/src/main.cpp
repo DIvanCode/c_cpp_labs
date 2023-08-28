@@ -99,4 +99,6 @@ int main(int, char **) {
   for (var_storage::iterator it = vars.begin(); it != vars.end(); ++it) {
     delete it->second;
   }
+
+  return 0;
 }

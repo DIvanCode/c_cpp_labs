@@ -1,5 +1,13 @@
+# This lab:
+/hw-01_bmp
+
+# General build directories:
+# - for Makefile:
+/obj/
+# - for CMake, by default:
 /build/
 /_build/
 
-/bin/
-/hw-01_bmp
+# CLion projects:
+/.idea/
+/cmake-build*/
